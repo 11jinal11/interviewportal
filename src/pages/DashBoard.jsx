@@ -26,6 +26,7 @@ const DashBoard = () => {
 
         console.log(res.data.data);
         
+        
         setCatagoryTotal(res.data.data); 
       })
       .catch((err) => {
