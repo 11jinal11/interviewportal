@@ -38,7 +38,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
-    backgroundColor: '#1976d2',
+    background: 'linear-gradient(135deg, #4fc3f7 0%,100%)',
     color: theme.palette.common.white,
   },
   [`&.${tableCellClasses.body}`]: {
@@ -319,7 +319,8 @@ const editData=(id,row)=>{
 
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: { xs: 200 }, mt: '10px' }} aria-label="customized table">
-            <TableHead  >
+          <TableHead sx={{background: 'linear-gradient(135deg, #4fc3f7 0%, #0288d1 100%)'}}>
+
               <TableRow >
                 <StyledTableCell >No.</StyledTableCell>
                 <StyledTableCell align="leftr">Question</StyledTableCell>
