@@ -8,6 +8,7 @@ import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Adminpenal = () => {
   const [ini, setIni] = useState({
+    
     email: '',
     password: '',
   });
